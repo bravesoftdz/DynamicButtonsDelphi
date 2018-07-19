@@ -1,0 +1,35 @@
+unit uPrincipal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.Buttons, Vcl.StdCtrls;
+
+type
+  TfrmPrincipal = class(TForm)
+    SpeedButton1: TSpeedButton;
+    Panel1: TPanel;
+    Button1: TButton;
+    procedure SpeedButton1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmPrincipal: TfrmPrincipal;
+  Mesas : array of TButton;
+  index : integer;
+implementation
+
+{$R *.dfm}
+
+procedure TfrmPrincipal.SpeedButton1Click(Sender: TObject);
+begin
+  Mesas[index] := TButton.Create(Application);
+  Mesas[index].Parent := Panel1;
+end;
+
+end.
