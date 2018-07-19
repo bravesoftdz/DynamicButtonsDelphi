@@ -1,9 +1,19 @@
 object frmPrincipal: TfrmPrincipal
   Left = 0
   Top = 0
+  Width = 822
+  Height = 654
+  HorzScrollBar.ButtonSize = 5
+  HorzScrollBar.ParentColor = False
+  HorzScrollBar.Range = 1
+  HorzScrollBar.Smooth = True
+  HorzScrollBar.Size = 1
+  HorzScrollBar.ThumbSize = 1
+  HorzScrollBar.Tracking = True
+  VertScrollBar.Increment = 10
+  VertScrollBar.Range = 654
+  VertScrollBar.Tracking = True
   Caption = 'Principal'
-  ClientHeight = 615
-  ClientWidth = 806
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText

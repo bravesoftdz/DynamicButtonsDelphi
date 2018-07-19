@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
-  <Transactions>
-    <Transaction>2018/07/19 13:43:41.113,=C:\Users\Heitor Augusto\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2018/07/19 13:44:48.913,C:\Users\Heitor Augusto\Documents\Embarcadero\Studio\Projects\Trabalhando com botões\uPrincipal.pas=C:\Users\Heitor Augusto\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2018/07/19 13:44:48.913,C:\Users\Heitor Augusto\Documents\Embarcadero\Studio\Projects\Trabalhando com botões\uPrincipal.dfm=C:\Users\Heitor Augusto\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
-    <Transaction>2018/07/19 13:44:56.993,C:\Users\Heitor Augusto\Documents\Embarcadero\Studio\Projects\Trabalhando com botões\ProjetoButtons.dproj=C:\Users\Heitor Augusto\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+	<Transactions>
+    <Transaction>2018/07/19 13:43:41.000.113,=C:\Users\Heitor Augusto\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/07/19 13:44:48.000.913,C:\Users\Heitor Augusto\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Heitor Augusto\Documents\Embarcadero\Studio\Projects\Trabalhando com botões\uPrincipal.pas</Transaction>
+    <Transaction>2018/07/19 13:44:48.000.913,C:\Users\Heitor Augusto\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\Heitor Augusto\Documents\Embarcadero\Studio\Projects\Trabalhando com botões\uPrincipal.dfm</Transaction>
+    <Transaction>2018/07/19 13:44:56.000.993,C:\Users\Heitor Augusto\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Heitor Augusto\Documents\Embarcadero\Studio\Projects\Trabalhando com botões\ProjetoButtons.dproj</Transaction>
   </Transactions>
 </BorlandProject>

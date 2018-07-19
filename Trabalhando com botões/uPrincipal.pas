@@ -30,10 +30,15 @@ implementation
 
 procedure TfrmPrincipal.SpeedButton1Click(Sender: TObject);
 begin
-  if((altura + 110) >= Panel1.Height) then
-    ShowMessage('Não há mais espaços para novos botões')
-  else
+  if((altura + 210) >= Panel1.Height) then
   begin
+    Panel1.Height := Panel1.Height + 110;
+    frmPrincipal.Height := frmPrincipal.Height + 110;
+  end;
+  if((altura + 210) >= frmPrincipal.VertScrollBar.Range) then
+  begin
+    frmPrincipal.VertScrollBar.Range := frmPrincipal.VertScrollBar.Range + 110;
+  end;
    Botoes[index] := TButton.Create(Application);
    Botoes[index].Parent := Panel1;
    Botoes[index].name:='btnBotao'+inttostr(index);
@@ -50,7 +55,6 @@ begin
      largura := 10;
    end;
    SetLength(Botoes,index + 1);
-  end;
 
 end;
 
